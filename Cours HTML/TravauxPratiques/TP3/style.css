@@ -1,0 +1,28 @@
+/* .menu {
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: 1;
+  list-style: none;
+  margin-top: 40px;
+}
+.bt1 {
+  border-radius: 30px;
+  height: 25px;
+  margin-top: -4px;
+  border-color: rgb(238, 231, 231);
+  border-style: none;
+}
+.section1 {
+  background-image: url(/TP3/assets/img/bg.jpg);
+  width: 100vw;
+  height: 30vh;
+  max-height: 800px;
+  max-width: 1000px;
+  /* center/cover; */
+/* background-color: rgb(24, 21, 194); */
+/* } */
+
+.logos {
+  background-color: black;
+}

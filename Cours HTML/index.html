@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <title>Cours HTML</title>
+    <link rel="shortcut icon" href="./img/logo-HTML.png" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- <link href="css/style.css" rel="stylesheet" /> -->
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li>Accueil</li>
+        <li>Boutique</li>
+        <li>
+          <a href="#form">Formulaire</a>
+        </li>
+      </ul>
+    </nav>
+    <header>
+      <h1>Ceci est le titre principal</h1>
+      <p>
+        texte classique <em> texte italique</em> <strong> texte en gras</strong>
+      </p>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio,
+        suscipit ea nihil fugit quod corrupti quo accusamus ullam corporis
+        necessitatibus vero maiores error minus consequatur unde perspiciatis,
+        quidem voluptate officiis.
+      </p>
+    </header>
+    <main>
+      <section>
+        <h2>Ordered List</h2>
+        <ol>
+          <li>Ceci</li>
+          <li>est un liste</li>
+          <li>dans l'ordre</li>
+        </ol>
+      </section>
+      <section>
+        <h3>Image en HTML</h3>
+        <img src="./img/paysage.jpg" height="200" alt="Paysage" />
+        <div>
+          <h4>Tableaux</h4>
+          <table
+            border="4"
+            cellpadding="10"
+            cellspacing="6"
+            style="text-align: center"
+          >
+            <thead>
+              <tr>
+                <th>Col 1</th>
+                <th>Col 2</th>
+                <th>Col 3</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td rowspan="2">Cell 1</td>
+                <td>Cell 2</td>
+                <td>Cell 3</td>
+              </tr>
+              <tr>
+                <td colspan="2">Cell 4</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div>
+          <h5><span>&#8594;</span> Les Liens</h5>
+          <a href="https://htmlcheatsheet.com" target="_blank">
+            HTML Cheat Sheet</a
+          >
+        </div>
+        <div>
+          <h6>
+            <i>&#128190; </i>
+            VIDEO
+            <!-- on peut aller sur pixabay -->
+          </h6>
+          <video
+            src="./video/213026_small.mp4"
+            autoplay
+            muted
+            loop
+            height="200"
+          ></video>
+        </div>
+      </section>
+      <section id="form">
+        <h2>LES FORMULAIRES</h2>
+
+        <form action="">
+          <!-- "for" et "id" permettent de lier le label à l'input -->
+          <label for="name">Nom</label>
+          <input type="text" id="name" placeholder="Entrer votre nom" />
+          <br />
+          <br />
+          <label for="age">Entrer votre age</label>
+          <input type="number" id="age" value="18" min="18" max="110" />
+          <br />
+          <br />
+          <!-- INput de type select -->
+          <label for="gender">Genre</label>
+          <select id="gender">
+            <option value="Homme">Homme</option>
+            <option selected="selected" value="Femme">Femme</option>
+            <option value="Non Binaire">Non Binaire</option>
+          </select>
+          <!-- input de type radio -->
+          <div>
+            <br />
+            <input type="radio" name="type" id="human" checked />
+            <label for="human">Humain</label>
+
+            <input type="radio" name="type" id="dog" />
+            <label for="dog">Chien</label>
+
+            <input type="radio" name="type" id="cat" />
+            <label for="cat">Chat</label>
+          </div>
+          <!-- input de type texarea -->
+          <textarea
+            placeholder="Votre message ..."
+            cols="50"
+            rows="10"
+          ></textarea>
+          <br />
+          <br />
+          <!-- input de type checkbox -->
+          <input type="checkbox" name="" id="cgv" />
+          <label for="cgv">Acceptez les conditions générales : </label>
+          <!-- input de type submit permet de valider  -->
+          <input type="submit" value="Validation du formulaire" />
+        </form>
+      </section>
+      <button>Ceci est un bouton</button>
+    </main>
+    <br />
+    <footer>
+      <!-- envoi de mail et de fichiers -->
+      <a href="mailto:fguerin555@gmail.com">Contactez-moi</a>
+      <br />
+      <br />
+      <a href="./notice.txt" download="notice">Télécharger la notice</a>
+    </footer>
+  </body>
+</html>

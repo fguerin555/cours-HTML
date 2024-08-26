@@ -1,0 +1,32 @@
+h1 {
+  color: blue;
+}
+
+thead {
+  color: red;
+}
+
+.total {
+  color: green;
+}
+
+.YT {
+  color: turquoise;
+}
+
+.map {
+  color: orange;
+}
+
+.google {
+  color: white;
+  background-color: blueviolet;
+}
+
+.ltd {
+  color: white;
+  background-color: brown;
+}
+.ca {
+  background-color: rgba(160, 160, 117, 0.473);
+}
